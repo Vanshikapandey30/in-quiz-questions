@@ -684,3 +684,16 @@ git checkout -b beta-test
 - [ ] It sets HEAD to previous commit and leaves changes from the undone commit in the stage/index.
 - [ ] It deletes all previous commits and resets the repository history back to its initial state.
 - [ ] It keeps the HEAD at the current commit, but clears all previous commits.
+
+#### Q88. What files is this .gitignore proggrammed to leave out?
+# .swift 
+  build/
+  *.txt
+  *.metadata
+  
+- [ ] only files with .swift and .txt extensions.
+- [ ] All the files in the build directory, as well as files ending with .txt or .metadata.
+- [ ] All the files with a swift, .txt or .metadata file extension, as well as the ebtire build directory.
+- [ ] only the build directory.
+
+
